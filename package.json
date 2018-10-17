@@ -12,9 +12,8 @@
   },
   "keywords": [
     "libtorrent",
-    "node-ffi",
-    "node-ref",
-    "node-gyp",
+    "node-ffi-napi",
+    "node-ref-napi",
     "nodejs",
     "node-ws"
   ],
@@ -31,9 +30,8 @@
   "dependencies": {
     "bindings": "~1.2.0",
     "debug": "2",
-    "ffi": "^2.0.0",
-    "nan": "2",
-    "ref": "1",
+    "ffi-napi": "^2.4.3",
+    "ref-napi": "^1.4.0",
     "ref-struct": "1"
   },
   "devDependencies": {
